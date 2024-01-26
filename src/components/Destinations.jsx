@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import data from "../data.json";
+import data from "../data";
+
 import DestinationsLinks from "./DestinationsLinks";
 const Destinations = () => {
   const [destinations, setDestinations] = useState(data["destinations"]);
