@@ -1,6 +1,6 @@
 import { Link, useRouteError } from "react-router-dom";
 
-import img from "../assets/images/space-error-img.gif";
+import img from "../assets/space-error-img.gif";
 
 const Error = () => {
   const error = useRouteError();

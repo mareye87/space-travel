@@ -1,5 +1,5 @@
-import logo from "../assets/images/shared/logo.svg";
-import hamburger from "../assets/images/shared/icon-hamburger.svg";
+import logo from "../assets/shared/logo.svg";
+import hamburger from "../assets/shared/icon-hamburger.svg";
 import { Aside, MenuLinks } from "../components";
 import { useState } from "react";
 import { Link } from "react-router-dom";

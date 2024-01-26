@@ -19,7 +19,7 @@ const TechnologySteps = () => {
       {/* IMAGE */}
       <div className=" md:col-start-2 md:row-start-1 rounded-md ">
         <img
-          src={images["landscape"]}
+          src={images["landscape" || "portrait"]}
           alt={name}
           className=" h-52 md:h-80 w-full object-cover md:pl-0 md:mt-8 mx-auto rounded-md"
         />

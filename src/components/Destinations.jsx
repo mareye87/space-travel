@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import data from "../data";
+import data from "../data.json";
 
 import DestinationsLinks from "./DestinationsLinks";
 const Destinations = () => {

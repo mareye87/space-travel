@@ -1,4 +1,4 @@
-import closeIcon from "../assets/images/shared/icon-close.svg";
+import closeIcon from "../assets/shared/icon-close.svg";
 import AsideLinks from "./AsideLinks";
 import MenuLinks from "./MenuLinks";
 
