@@ -10,7 +10,7 @@ const Aside = ({ setOpenAside, openAside }) => {
       } `}
     >
       <div className="flex justify-end p-7">
-        <button
+        <div
           onClick={() => {
             setOpenAside(!openAside);
           }}
@@ -20,7 +20,7 @@ const Aside = ({ setOpenAside, openAside }) => {
             alt="closeAside"
             className="h6 w-6 hover:rotate-90 active:rotate-90 transition duration-300"
           />
-        </button>
+        </div>
       </div>
       <AsideLinks openAside={openAside} setOpenAside={setOpenAside} />
     </div>

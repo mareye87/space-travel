@@ -2,7 +2,7 @@ import { Navbar } from "../components";
 
 const Home = () => {
   return (
-    <main className=" home-background-mobile md:home-background grid md:grid-cols-2 md:items-end md:pb-12 md:pl-24">
+    <section className=" home-background-mobile md:home-background grid md:grid-cols-2 md:items-end md:pb-12 md:pl-24">
       {/* text */}
       <div className="px-6 pt-32">
         <div className="md:mb-12">
@@ -26,7 +26,7 @@ const Home = () => {
           explore
         </h1>
       </div>
-    </main>
+    </section>
   );
 };
 

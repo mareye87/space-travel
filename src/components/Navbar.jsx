@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       <MenuLinks />
       <Aside setOpenAside={setOpenAside} openAside={openAside} />
-      <button>
+      <div>
         <img
           src={hamburger}
           alt="menu"
@@ -29,7 +29,7 @@ const Navbar = () => {
           }}
           className=" md:hidden w-8 h-6 mr-6 hover:scale-110 transition duration-200 z-[50] "
         />
-      </button>
+      </div>
     </nav>
   );
 };

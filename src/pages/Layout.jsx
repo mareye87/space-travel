@@ -6,7 +6,6 @@ const Layout = () => {
   return (
     <main className="relative">
       <Navbar />
-
       <Outlet />
     </main>
   );
