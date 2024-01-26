@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import data from "../data.json";
+import { data } from "../data2";
 
 const TechnologySteps = () => {
   const [technology, setTechnology] = useState(data["technology"]);
